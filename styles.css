@@ -1,0 +1,261 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+img {
+    margin-left: 5px;
+}
+
+.links-header {
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    margin: 0 40px;
+    padding: 0;
+}
+
+.links-header a:hover {
+    color:gold;
+    transition: color 0.3s ease-in-out;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    gap: 30px;
+}
+
+.main-title {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', sans-serif;
+    margin: 0;
+    font-weight: bold;
+    color: gold;
+    animation: subtleColorShift 3s infinite alternate;
+}
+
+@keyframes subtleColorShift {
+    0% { color: gold; }
+    50% { color: rgb(242, 217, 79); }
+    100% { color: rgb(235, 207, 52); }
+}
+
+.main-paragraph {
+    color: white;
+    text-align: center;
+    margin-right: 250px;
+    margin-left: 250px;
+    font-size: 18px;
+    margin-top: -30px;
+    min-width: 25rem;
+    max-width: 40rem;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: -30px;
+  }
+
+button:hover {
+    color:gold;
+    transition: color 0.3s ease-in-out;
+}
+
+.first-pic {
+    margin-top: -15px;
+}
+
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.offers {
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    flex-direction: column;
+}
+
+.align-offer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 0;
+}
+
+.info {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.car {
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.price {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 23px;
+    margin: 0;
+    margin-top: 10px;
+    color: gold;
+}
+
+.testimonial {
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 5rem;
+}
+
+.box {
+    margin: 0;
+    background-color: rgb(32, 31, 31);
+    border-radius: 15px;
+}
+
+.quote {
+    margin-bottom: 0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+}
+
+.quote, .author {
+    font-size: 25px;
+    font-family: 'Playfair Display', sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+
+.author {
+    color: gold;
+    animation: subtleColorShift 3s infinite alternate;
+    text-align: center;
+    font-weight: bold;
+}
+
+@keyframes subtleColorShift {
+    0% { color: gold; }
+    50% { color: rgb(242, 217, 79); }
+    100% { color: rgb(235, 207, 52); }
+}
+
+.explore {
+    background-color: rgb(15, 15, 15);
+    margin-top: -20px;
+}
+
+.mini-explore {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.title-explore {
+    margin-top: 30px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    min-width: 20rem;
+    text-align: center;
+    color: gold;
+    animation: subtleColorShift 3s infinite alternate;
+}
+
+.paragraph-explore {
+    margin-top: -20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    font-size: 18px;
+    min-width: 20rem;
+    max-width: 30rem;
+}
+
+.button-explore {
+    margin-top: -15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border-color: black;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.button-explore:hover {
+    background-color: rgb(235, 209, 66); /* Un poco más claro al pasar el ratón */
+    color: black;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);;
+    align-items: center;
+}
+
+.end .title-explore {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.end .paragraph-explore {
+    color: white;
+    margin-top: 0;
+    min-width: 20rem;
+}
